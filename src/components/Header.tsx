@@ -32,7 +32,7 @@ import Image from "next/image";
             </ul>
             {/* right */}
             <div className="ml-14 flex justify-center items-center">
-                <div className="flex justify-start items-center lg:bg-[#F0F0F0] lg:w-[500px] h-[40px] pl-2 ml-12 md:ml-0 hover:border-none rounded-full "> <IoIosSearch className="text-xl hidden lg:block" /> <input   placeholder={`Search for products...`}  className="bg-[#F0F0F0] outline-none  w-full h-full rounded-full ml-2 hidden lg:block"/></div>
+                <div className="flex justify-start items-center lg:bg-[#F0F0F0] lg:w-[500px] h-[40px] pl-2 ml-12 md:ml-0 hover:border-none rounded-full text-xl sm:hidden lg:block "> <IoIosSearch/> <input   placeholder={`Search for products...`}  className="bg-[#F0F0F0] outline-none  w-full h-full rounded-full ml-2 hidden lg:block"/></div>
             </div>
             <div className="flex space-x-2 sm:space-x-4 ">
             {/* <IoIosSearch className="text-xl  lg:hidden" /> */}
