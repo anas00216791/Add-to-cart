@@ -34,6 +34,7 @@
     "redux-persist": "^6.0.0",
     "sanity": "^3.72.1",
     "styled-components": "^6.1.14",
+    "sweetalert2": "^11.15.10",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },

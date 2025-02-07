@@ -24,15 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <ClerkProvider>
       <html lang="en">
         <body>
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
           <Providers>
           <Header/>
           {children}
@@ -40,6 +33,5 @@ export default function RootLayout({
           </Providers>
         </body>
       </html>
-    </ClerkProvider>
   );
 }

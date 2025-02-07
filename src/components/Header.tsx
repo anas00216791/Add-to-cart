@@ -6,8 +6,7 @@ import { MdOutlineAccountCircle } from "react-icons/md";
 import { IoCartOutline } from "react-icons/io5";
 import { IoIosSearch } from "react-icons/io";
 import { SheetSide } from "./Humburgur";
-import Image from "next/image";
-
+import ProductPage from "../app/product/[slug]/page"
 import { useSelector } from "react-redux";
 
   
@@ -16,7 +15,7 @@ export default function Header() {
     
      
   return (
-     <header className="w-full fixed bg-white z-10 top-0 mt-[25px] h-[60px] md:h-[90px] flex justify-between  pr-2 items-center max-w-screen-2xl mx-auto">
+     <header className="w-full fixed bg-white z-10 top-0 h-[60px] md:h-[90px] flex justify-between  pr-2 items-center max-w-screen-2xl mx-auto">
            <div className="flex justify-center items-center ">
           
             {/* logo */}
@@ -27,7 +26,7 @@ export default function Header() {
             <ul className="hidden lg:block ">
                 <li className="flex space-x-4 ml-4 mt-2 items-center ">
                     <Link href={`/`}>Home</Link>
-                    <Link href={"/products"}>Products</Link>
+                    <Link href={"/product"}>Product</Link>
                     <Link href={"/brands"}>Brands</Link>
                 </li>
             </ul>
